@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("upload.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#upload-section {
+    text-align: center;
+    color: rgb(21, 21, 21);
+    margin: 20px;
+    background-color:transparent;
+}
+
+#upload-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(22, 22, 22, 0.1);
+    background-color: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+label {
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+input,
+button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #088178;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #065b62;
+}
